@@ -68,10 +68,39 @@ body {
     margin: 0;
     font-weight: 600;
 }
+.prep-card ul {
+    list-style-type: disc;
+    color: var(--Dark-Raspberry);
+}
 
 .card h2 {
     font-family: Young_Serif;
     color: var(--Nutmeg);
+}
+hr {
+    margin: 20px 0px;
+}
+
+section ul li strong{
+    color: var(--Wenge-Brown);
+    font-weight: 600;
+}
+
+.instructions ol {
+    color: var(--Nutmeg);
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+.nutrition ul {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nutrition ul li{
+    margin: 0;
+
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
